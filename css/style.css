@@ -1,0 +1,186 @@
+@import 'utilities.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotting:antialised;
+
+}
+header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+    height: 600px;
+    
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+.aboutme{
+    padding: 3rem 0;
+}
+.aboutme .left img{
+    width: 300px;
+    height: 400px;
+    padding: 0.8rem 3rem;
+
+}
+.aboutme .right{
+    color: var(--pure);
+}
+.aboutme .right h2{
+    margin-bottom: 2rem;
+}
+.aboutme .right p{
+    line-height: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+.aboutme .right a{
+    padding-right: 2rem;
+    background: var(--dark);
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 100%;
+}
+/*.projects .container{
+    background-color:white;
+}*/
+.projects .container h1{
+    font-family: 'Poppins',sans-serif;
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.projects .container h3{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--dark);
+    font-weight: bold;
+}
+.projects .container p{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--dark);
+    font-weight:inherit;
+
+
+}
+.projects .container .technology{
+    font-family: 'Poppins',sans-serif;
+    color: var(--dark);
+    font-weight: bolder;
+
+
+}
+.skills .container h1{
+    font-family: 'Poppins',sans-serif;
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+.skills .container h3{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--dark);
+    font-weight: bold;
+
+}
+.skills .container p{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--dark);
+    font-weight:inherit;
+}
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+section.contact .container h1{
+    font-family: 'Poppins',sans-serif;
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+section.contact .container h1 span{
+    color: var(--primary);
+}
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 2rem;
+}
+section.contact .card-wrapper .card h6{
+    color: var(--ternary);
+    font-weight: 4rem;
+}
+footer{
+    background: var(--dark);
+    text-align:center;
+    padding:5rem,0;  
+   
+}
+footer .footer-icon{
+    margin-right: 5rem;
+    
+}
+footer h6{
+
+    font-family: 'Poppins',sans-serif;
+    color: var(--pure);
+    font-weight:lighter;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  
+    
+   
+
+}
