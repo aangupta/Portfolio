@@ -62,10 +62,14 @@ header nav{
 }
 .aboutme .right h2{
     margin-bottom: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .aboutme .right p{
     line-height: 1.9rem;
     margin-bottom: 0.5rem;
+    font-family: 'Poppins',sans-serif;
 }
 /*.aboutme .right a{
     padding-right: 2rem;
