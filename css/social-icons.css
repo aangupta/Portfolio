@@ -20,6 +20,7 @@
   line-height: 50px;
   transition: .5s;
   cursor: pointer;
+  margin-top: 2rem;
 }
 .social-menu ul li .fa:hover {
   color: #ffffff;
